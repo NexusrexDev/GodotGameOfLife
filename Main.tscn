@@ -18,12 +18,12 @@ glow_levels/4 = true
 glow_levels/6 = true
 glow_levels/7 = true
 glow_intensity = 1.49
-glow_bloom = 0.3
+glow_bloom = 0.25
 glow_blend_mode = 0
 glow_bicubic_upscale = true
 glow_high_quality = true
 adjustment_enabled = true
-adjustment_contrast = 1.6
+adjustment_contrast = 1.68
 
 [sub_resource type="TileSet" id=5]
 0/name = "tiles.png 0"
@@ -338,13 +338,13 @@ void fragment(){
 [sub_resource type="ShaderMaterial" id=7]
 shader = SubResource( 6 )
 shader_param/res = Vector2( 640, 480 )
-shader_param/mask_type = 0
+shader_param/mask_type = 2
 shader_param/bloom_type = 0
 shader_param/hardScan = -8.0
 shader_param/hardPix = -2.0
 shader_param/hardBloomScan = -2.0
 shader_param/hardBloomPix = -1.5
-shader_param/bloomAmount = 3.106
+shader_param/bloomAmount = 3.506
 shader_param/warp = Vector2( 10000, 10000 )
 shader_param/maskDark = 0.5
 shader_param/maskLight = 1.5
