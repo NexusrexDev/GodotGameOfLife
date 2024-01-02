@@ -8,3 +8,6 @@ The game is available as a HTML5 export on my itch.io page: [https://nexusrexdev
 
 ## Gameplay sample:
 ![Gameplay gif](gameplay.gif)
+
+## Credits:
+-CRT Shader, originally written by *Timothy Lottes*, modified to Godot by GodotShaders user *Ahopness*. [Shader link](https://godotshaders.com/shader/crt-shader-with-realistic-blurring/)
